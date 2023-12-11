@@ -1,0 +1,107 @@
+
+//+------------------------------------------------------------------+
+//|                                                      Trend Reverting PRO |
+//|                                     https://forexroboteasy.com |
+//|                                                         Forex Robot Easy Team |
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//|                                            Indicator Parameters |
+//+------------------------------------------------------------------+
+input bool ScalpingMode = false; // Scalping Mode activation flag
+input int MA_Period = 14; // Moving Average period
+
+//+------------------------------------------------------------------+
+//|                                                      Indicator Initialization |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+   // Indicator initialization code
+   // ...
+   return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//|                                                      Indicator Deinitialization |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+   // Indicator deinitialization code
+   // ...
+}
+
+//+------------------------------------------------------------------+
+//|                                                      Indicator Calculation |
+//+------------------------------------------------------------------+
+int OnCalculate(const int rates_total,
+                const int prev_calculated,
+                const datetime &time[],
+                const double &open[],
+                const double &high[],
+                const double &low[],
+                const double &close[],
+                const long &tick_volume[],
+                const long &volume[],
+                const int &spread[])
+{
+   // Indicator calculation code
+   // ...
+   return(rates_total);
+}
+
+//+------------------------------------------------------------------+
+//|                                                      Trading Functions |
+//+------------------------------------------------------------------+
+void OpenBuyOrder(const double lot_size)
+{
+   // Function to open a buy order
+   // ...
+}
+
+void OpenSellOrder(const double lot_size)
+{
+   // Function to open a sell order
+   // ...
+}
+
+void CloseOrder(const int ticket)
+{
+   // Function to close an order
+   // ...
+}
+
+//+------------------------------------------------------------------+
+//|                                                      Support and Maintenance |
+//+------------------------------------------------------------------+
+void SupportAndMaintenance()
+{
+   // Support and maintenance code
+   // ...
+}
+
+//+------------------------------------------------------------------+
+//|                                                      Main Program |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+   // Main program code
+   // ...
+}
+
+//+------------------------------------------------------------------+
+//|                                                      Testing and Integration |
+//+------------------------------------------------------------------+
+void TestAndIntegration()
+{
+   // Testing and integration code
+   // ...
+}
+
+//+------------------------------------------------------------------+
+//|                                                      Additional Functions |
+//+------------------------------------------------------------------+
+void AdditionalFunctions()
+{
+   // Additional functions code
+   // ...
+}
